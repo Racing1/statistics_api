@@ -15,24 +15,24 @@ module.exports = function (environment) {
 
         APP: {
             // API host and port
-            ApiUrl: '//eth.daggerpool.com/',
+            ApiUrl: '//ethpool.phoenixmax.org/',
 
             // HTTP mining endpoint
-            HttpHost: 'http://eth-us01.daggerpool.com',
-            HttpPort: 40001,
+            HttpHost: 'http://ethpool.phoenixmax.org',
+            HttpPort: 8888,
 
             // Stratum mining endpoint
-            StratumHost: 'eth-us01.daggerpool.com',
-            StratumPort: 40011,
+            StratumHost: 'ethpool.phoenixmax.org',
+            StratumPort: 8002,
 
-            StratumHost1: 'eth-uk01.daggerpool.com',
-            StratumPort1: 40011,
+            //StratumHost1: 'eth-uk01.daggerpool.com',
+            //StratumPort1: 40011,
 
-            NicehashHost: 'eth-nh.daggerpool.com',
-            NicehashPost: 40021,
+            //NicehashHost: 'eth-nh.daggerpool.com',
+            //NicehashPost: 40021,
 
             // Fee and payout details
-            PoolFee: '0.99%',
+            PoolFee: '0.05%',
             PayoutThreshold: '0.01',
             ShareDifficulty: '4000000000',
 
@@ -40,10 +40,10 @@ module.exports = function (environment) {
             Currency: 'USD',
             CoinName: 'Ethereum',
             CoinShortName: 'ETH',
-            PaymentText: 'every 2 hours',
-            SupportMail: 'helpdesk@daggerpool.com',
-            SupportHelpdesk: 'http://helpdesk.daggerpool.com',
-            WebsiteName: 'eth.daggerpool.com',
+            PaymentText: 'every 12 hours',
+            SupportMail: 'celldr69@gmail.com',
+            //SupportHelpdesk: 'http://helpdesk.daggerpool.com',
+            WebsiteName: 'ethpool.phoenixmax.org',
 
             //Coin Bases Settings
             ChainAddress : 'https://etherscan.io/address/',
@@ -52,8 +52,8 @@ module.exports = function (environment) {
             BlockAddress : 'https://etherscan.io/block/',
 
             //Twitter Parameter
-            TwitterURL: 'https://twitter.com/',
-            TwitterHash: 'daggerpool_com',
+            //TwitterURL: 'https://twitter.com/',
+            //TwitterHash: 'daggerpool_com',
 
 
             // For network hashrate (change for your favourite fork)
@@ -67,7 +67,7 @@ module.exports = function (environment) {
         /* Override ApiUrl just for development, while you are customizing
          frontend markup and css theme on your workstation.
          */
-        ENV.APP.ApiUrl = 'https://eth.daggerpool.com/'
+        ENV.APP.ApiUrl = 'https://ethpool.phoenixmax.org:4200/'
         // ENV.APP.LOG_RESOLVER = true;
         // ENV.APP.LOG_ACTIVE_GENERATION = true;
         // ENV.APP.LOG_TRANSITIONS = true;
